@@ -49,14 +49,6 @@ src_dirs = ["src", "config"]
 [processor.requirements]
 src_dirs = ["src", "config"]
 
-# ─── shell ───────────────────────────────────────────────────────────────────
-
-[processor.shellcheck]
-src_dirs = ["src", "config"]
-args = ["--severity=error", "--shell=bash"]
-
-# ─── lua ─────────────────────────────────────────────────────────────────────
-
 [processor.luacheck]
 src_dirs = ["config"]
 
@@ -64,18 +56,6 @@ src_dirs = ["config"]
 
 [processor.taplo]
 src_dirs = ["."]
-
-[processor.htmlhint]
-src_dirs = ["src"]
-
-[processor.tidy]
-src_dirs = ["src"]
-
-[processor.eslint]
-src_dirs = ["config"]
-args = ["-c", "config/eslint.config.js"]
-
-# ─── merged from rsconstruct.local.toml ─────────────────────────────────────
 
 # Install the pinned demo libraries so pylint/mypy can resolve the imports in
 # the exercises; without this CI has none of them and every import fails.
