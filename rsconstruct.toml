@@ -52,7 +52,7 @@ src_dirs = ["config"]
 [processor.checker.taplo]
 src_files = [".rumdl.toml", "pyproject.toml", "rsconstruct.toml"]
 
-# Demo libraries pylint/mypy need to resolve imports live in
+# Demo libraries pyrefly needs to resolve imports live in
 # [project].dependencies in pyproject.toml (currently none).
 
 # lint the GitHub Actions workflow files with actionlint
