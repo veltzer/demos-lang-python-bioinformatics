@@ -5,7 +5,7 @@
 
 description: Demos for bioinformatics in the python language
 
-project website: https://veltzer.github.io/demos-lang-python-bioinformatics
+project website: <https://veltzer.github.io/demos-lang-python-bioinformatics>
 
 author: Mark Veltzer
 
